@@ -1,8 +1,13 @@
 {
+  "version": 2,
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/api/index"
+      "dest": "/api/index",
+      "headers": {
+        "x-robots-tag": "noindex, nofollow",
+        "cache-control": "no-store, must-revalidate"
+      }
     }
   ]
 }
