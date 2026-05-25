@@ -1,7 +1,10 @@
-{ 
-  "name": "vercel-xhttp-relay", 
-  "version": "1.0.0", 
-  "description": "Edge-runtime XHTTP relay for Xray/V2Ray on Vercel", 
-  "private": true, 
-  "license": "MIT" 
+{
+  "name": "vercel-xhttp-relay",
+  "version": "1.0.0",
+  "description": "Optimized Edge-runtime Traffic Relay Engine",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
